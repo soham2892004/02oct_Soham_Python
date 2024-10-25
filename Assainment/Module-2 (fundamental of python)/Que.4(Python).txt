@@ -1,0 +1,3 @@
+Que.    How memory is managed in Python?
+Ans.->   memory management is handled automatically by the interpreter,
+    which uses a "private heap" to store all program objects and data structures.

@@ -1,0 +1,12 @@
+Que.1-what is list? how will you reserve a list?
+Ans.		Lists are collections of elements in python. it’s can contain elements of different data types.in lists , user can change their elements after creation.
+
+•	Reserve a List in python:
+-->	Create empty list:
+        Display_list=[]
+
+-->	Create inserting value to list:
+        Fruits_list=[apple,banana,cherry,grapes,orange]
+
+-->	Create a list with specific length:
+        Display_list=[none]*6
