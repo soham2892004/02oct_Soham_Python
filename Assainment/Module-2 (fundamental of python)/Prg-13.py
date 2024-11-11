@@ -6,7 +6,6 @@ counted_chars = ""
 
 # for loop displayed each character in the input string
 for char in string:
-    if char not in counted_chars:
         
         #initialise count variable and value passed to 0
         count = 0

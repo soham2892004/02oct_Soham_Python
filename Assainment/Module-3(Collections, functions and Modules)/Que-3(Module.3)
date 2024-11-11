@@ -1,0 +1,11 @@
+ Que.3-differentiate between append() and extend() methods?
+Ans.
+	*append()
+	->append method add 1 element in the list.
+	->the element can be type of int , float , string or another.
+
+
+	*extend()
+	->extend method add 2 or more element in the list.
+	->the element can be type of list , tuple or dictionary.
+	

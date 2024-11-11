@@ -9,4 +9,4 @@ Ans.		Lists are collections of elements in python. it’s can contain elements o
         Fruits_list=[apple,banana,cherry,grapes,orange]
 
 -->	Create a list with specific length:
-        Display_list=[none]*6
+        Display_list=[15]

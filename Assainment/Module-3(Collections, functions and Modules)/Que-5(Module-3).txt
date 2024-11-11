@@ -1,0 +1,25 @@
+  Que.5 - How will you compare two lists?
+ Ans.	I.->User compare two list using Equality operation ,using Equal  Operator.
+		Ex. List1=[apple,banana,cherry,watermelon]
+		       List2=[potato,tomato,carrot,cucumber]
+
+			if List1==List2:
+				print ("Lists are Equal")
+			else:
+				print ("Lists are not Equal")
+
+		II.->user converts lists to sets,and after this process  compare two sets use equal operater.
+		Ex.List1=[1,2,3,4,5]
+		      List2=[10,9,8,7,6]
+ 		      List3=["abc","def","ghi","jkl"]
+                      List4=["mno","pqr","stu","vwx"]
+			
+			set1=[List1,List3]
+			set2=[List2,	List4]
+
+			if set1==set2:
+				print("Two sets are equal")
+			else:
+				print("two sets are not equal")				
+
+			
