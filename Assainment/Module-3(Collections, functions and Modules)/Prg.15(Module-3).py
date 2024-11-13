@@ -9,8 +9,10 @@ for item in range(Elements):
     Value=input("enter value for list:")
     TestList.append(Value)
 
-#it's sort method which is sorting list to ascending order
-TestList.sort()
+print (TestList)
+#convert list to set for remove duplicate values
+TestList=set(TestList)
 
-#displayed second smallest number to list
-print (TestList[1])
+
+
+print (TestList)
