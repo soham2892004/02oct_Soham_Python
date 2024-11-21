@@ -1,0 +1,14 @@
+ Que. How will you create a dictionary using tuples in python?
+
+ Ans.
+    1>First Step:
+        User create List collection type.
+        Ex.Sample_List=[(1,'A'),('B',2),(3,'C'),('D',4)]
+
+    2>Second Step:
+        User convert list Sample_List to dictionary Sample_Dictionary
+        Ex.Sample_Dictionary=dict(Sample_List)
+
+    3>Third Step"
+        User displayed Sample_Dictionary
+        Ex.print (Sample_Dictionary)

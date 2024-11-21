@@ -1,0 +1,14 @@
+ Que-what is tuple?difference between list and tuple.
+ Ans.   tuple is a ordered and don't changed collection of elements.it's same as a list collection
+     type.
+        
+        *Difference between list and tuple:-
+
+        ~list is enclosed between square brackets[] and tuple is enclosed between
+         parenthases().
+
+        ~in list type,elements can be changed but in tuple type,elements cannot be
+         changed.
+         
+        ~list collection type is memory efficiency is less memory efficiency but tuple 
+         collection type memory efficiency is much more memory efficiency.

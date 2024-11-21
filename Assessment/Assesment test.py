@@ -6,7 +6,7 @@ def add_fruit(FruitName, FruitQty, FruitPrice):
         FruitStock[FruitName]['quantity'] += FruitQty
     else:
         FruitStock[FruitName] = {'quantity': FruitQty, 'price': FruitPrice}
-    print(f"{FruitQty} {FruitName} added to stock at ₹{FruitPrice} per product.")
+    print(f"{FruitQty} {FruitName} added to stock at ₹{FruitPrice} per Fruit.")
 
 # Define view_stock function for view fruit stock
 def view_stock():
@@ -15,13 +15,13 @@ def view_stock():
     else:
         print("Current Stock:")
         for fruit, details in FruitStock.items():
-            print(f"{fruit}: {details['quantity']} product, ₹{details['price']} per product")
+            print(f"{fruit}: {details['quantity']} Fruit, ₹{details['price']} per Fruit")
 
 # Define update_stock function for update fruit stock
 def update_stock(FruitName, NewQty):
     if FruitName in FruitStock:
         FruitStock[FruitName]['quantity'] = NewQty
-        print(f"Stock of {FruitName} updated to {NewQty} products.")
+        print(f"Stock of {FruitName} updated to {NewQty} Fruits.")
     else:
         print(f"{FruitName} not found in stock.")
 
@@ -39,11 +39,11 @@ def purchase_product(FruitName, FruitQty):
 # Define view product function for viewing product list by customer
 def view_product():
     if not FruitStock:
-        print("No products available...")
+        print("No Fruits available...")
     else:
-        print("Available products:")
+        print("Available Fruits:")
         for fruit, details in FruitStock.items():
-            print(f"{fruit}: {details['quantity']} products, ₹{details['price']} per products")
+            print(f"{fruit}: {details['quantity']} Fruits, ₹{details['price']} per Fruits")
 
 # Main function
 def main():
@@ -65,7 +65,7 @@ def main():
                 if choice == 1:
                     FruitName = input("Enter Fruit Name:")
                     FruitQty = int(input("Enter Fruit Quantity:"))
-                    FruitPrice = float(input("Enter Fruit Price per product:"))
+                    FruitPrice = float(input("Enter Fruit Price per Fruit:"))
                     add_fruit(FruitName, FruitQty, FruitPrice)
 
                 elif choice == 2:
@@ -86,7 +86,7 @@ def main():
             while True:
                 print("\n\tFruit Market Customer")
                 print("\n\n\t1. View Products")
-                print("\n\t2. Purchase Product")
+                print("\n\t2. Purchase Fruit")
                 print("\n\t3. Exit")
                 choice = int(input("Enter Your Choice:"))
 
