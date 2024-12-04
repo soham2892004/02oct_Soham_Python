@@ -1,0 +1,15 @@
+Que-How can you get a random number in python?
+
+Ans.
+    step-1:-
+        import the random module.
+
+    step-2:-
+        Displayed message to using random.randint() function ,in this function 2 parenthesis in function 1'st parenthesis is starting range,
+        and 2'nd is ending range.
+
+
+    Example.,
+        import random
+
+        print (random.randint(12,18))

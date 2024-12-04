@@ -1,0 +1,30 @@
+Que-How can you pick a random item from a list or tuple?
+
+Ans.
+    step-1:
+        import the random module.
+
+    step-2:
+        initialise one list and tuple.
+
+    step-3:
+        create variable choose_List and choose_Tuple beacuse selected element stored in this variable.
+
+    step-4:
+        use random.choise() inbuilt function,which is action performed to randomly selected items in list or tuple.
+
+    step-5:
+        Displayed selected list item and tuple item.
+
+    Example.,
+    import random
+
+        Sample_List=['soham','harshil','prem','nayan','sahil']
+        Sample_Tuple=(123,456,789,234,567,890,345,678,901,456,789,012,567,890)
+
+        choose_List=random.choise(Sample_List)
+        choose_Tuple=random.choise(Sample_Tuple)
+
+        print(choose_List)
+
+        print(choose_Tuple)
