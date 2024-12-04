@@ -1,0 +1,9 @@
+Que.why do you use zip() method in python?
+Ans.    zip() function in python is such as tool for allows you to efficiently pair element from multiple collection elements like that lists,tuples,dictionaries.
+
+Example.,Id=[101,102,103,104,105]
+        Names=["soham","harshil","nayan","prem"]
+         
+
+         for name,id in zip(Names,Id):
+            print(f"employee {name}'s id is{id}")
