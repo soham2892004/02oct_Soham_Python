@@ -1,0 +1,22 @@
+Que-How will you starting value in generating random numbers?
+Ans.
+    step-1:
+        importing random module.
+
+    step-2:
+        using seed function for set seed.
+
+    step-3:
+        create a random integer between given range using randint() function.
+
+    step-4:
+        displayed random integer number.
+
+    Example.,
+        import random
+
+        random.seed(23)
+
+        random_intNo=random.randint(1,10)
+
+        print(random_intNo)
