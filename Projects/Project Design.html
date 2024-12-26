@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpooling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); 
+            color: ;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: AntiqueWhite;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff7e5f;
+        }
+        .main {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #fff;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #ff7e5f;
+        }
+        .sidebar input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .content {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .route-list {
+            list-style: none;
+            padding: 0;
+        }
+        .route-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .route-list li span {
+            color: #333;
+        }
+        .route-list li span:nth-child(2) {
+            color: #ff7e5f;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Carpooling</div>
+        <div>
+            <a href="#">Find a carpool</a>
+            <a href="#">Create a carpool</a>
+            <a href="#">Sign In</a>
+            <a href="#">Facebook</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <div class="route">
+                <label for="route">Route</label>
+                <input type="text" id="route" name="route">
+            </div>
+            <div class="date">
+                <label for="date">Select a Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="filter">
+                <label for="filter">Filter</label>
+                <input type="text" id="filter" name="filter">
+            </div>
+        </div>
+        <div class="content">
+            <ul class="route-list">
+                <li>
+                    <span>04/02/2012 01:00 PM</span>
+                    <span>Grand Prairie, TX, USA → Irving, TX, USA</span>
+                    <span>+</span>
+                </li>
+                <li>
+                    <span>04/03/2012 01:00 PM</span>
+                    <span>Grand Prairie, TX, USA → Irving, TX, USA</span>
+                    <span>+</span>
+                </li>
+                <li>
+                    <span>04/04/2012 01:00 PM</span>
+                    <span>Grand Prairie, TX, USA → Irving, TX, USA</span>
+                    <span>+</span>
+                </li>
+                <li>
+                    <span>04/05/2012 01:00 PM</span>
+                    <span>Grand Prairie, TX, USA → Irving, TX, USA</span>
+                    <span>+</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+ Que.What are negative indexes and why are they used?
+ Ans.   negative indexes is used to access elements from the end of sequence.
+        negative index using for when access to last element ,reversing to sequence and when user
+    using negative indexes can be more efficient than calculating the positive index from the length
+    of the sequence.
